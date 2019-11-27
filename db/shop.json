@@ -1,0 +1,58 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Laptop",
+      "price": 2500,
+      "categoryId": 2,
+      "description": "Asus Zenbook",
+      "imageUrl": "https://www.asus.com/websites/global/products/lrBdwsJWLnCedonx/v3/features/images/small/2x/display.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Mouse",
+      "price": 8000,
+      "categoryId": 1,
+      "description": "ATech Mouse",
+      "imageUrl": "https://www.asus.com/websites/global/products/lrBdwsJWLnCedonx/v3/features/images/small/2x/display.jpg"
+    },
+    {
+      "name": "Laptop",
+      "description": "Dell",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSEsJFn6VOCNaSwCBKBYz5ZleDhw0lDwOJMAYCXjALJIBXyzdUi",
+      "price": "3000",
+      "categoryId": "2",
+      "id": 3
+    },
+    {
+      "name": "Laptop",
+      "description": "HP",
+      "price": "3000",
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSMQU4-R5S2GyUVODZu5kmL6siyaL27FCp7As4sT2zqE0Gr4RgO",
+      "categoryId": "2",
+      "id": 4
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Elektronik"
+    },
+    {
+      "id": 2,
+      "name": "Bilgisayar"
+    },
+    {
+      "id": 3,
+      "name": "Telefon"
+    },
+    {
+      "id": 4,
+      "name": "Oyun Konsollari, Hobi, Eglence"
+    },
+    {
+      "id": 5,
+      "name": "Kisisel Bakim ve Saglik"
+    }
+  ]
+}

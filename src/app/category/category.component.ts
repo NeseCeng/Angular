@@ -1,0 +1,24 @@
+import { Component, OnInit } from '@angular/core';
+import { Category } from './category';
+import { HttpClient } from '@angular/common/http';
+import { from, observable } from 'rxjs';
+import { CategoryService } from '../services/category.service';
+
+@Component({
+  selector: 'app-category',
+  templateUrl: './category.component.html',
+  styleUrls: ['./category.component.css'],
+  providers: [CategoryService]
+})
+export class CategoryComponent implements OnInit {
+
+  constructor(private categoryService: CategoryService) { }
+  title: 'Kategoriler';
+  path = 'http://localhost:3000/categories';
+  categories: Category[];
+  ngOnInit() {
+    this.categoryService.getCategory().subscribe(dataCategory => { this.categories = dataCategory });
+
+  }
+
+}
