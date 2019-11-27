@@ -14,6 +14,7 @@ import { ProductAddForms1Component } from './product/product-add-forms1/product-
 import { SpringComponent } from './spring/spring.component';
 import { ProductService } from './services/product.service';
 import { ProductAddForms2Component } from './product/product-add-forms2/product-add-forms2.component';
+import { LoginComponent } from './login/login.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { ProductAddForms2Component } from './product/product-add-forms2/product-
     ProductFilterPipe,
     ProductAddForms1Component,
     SpringComponent,
-    ProductAddForms2Component
+    ProductAddForms2Component,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
